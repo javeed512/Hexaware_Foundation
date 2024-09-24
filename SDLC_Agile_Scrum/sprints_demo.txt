@@ -1,0 +1,71 @@
+
+  Develop Calculator
+
+	add();
+	mul();
+	sub();
+	div();
+
+// adding
+
+ class  Calculator  // sprint-1
+{
+
+
+	int add(int a, int b){ // 2weeks
+
+		return a+b; 
+	}
+
+
+}
+
+------------------------------------------
+
+class  Calculator  // sprint-2
+{
+
+
+	int add(int a, int b){ // 2weeks
+
+		if(a>0 && b>0){
+
+		return a+b; 
+
+		}
+	}
+
+
+}   // release-1
+
+-----------------------------------------------
+
+// subtraction
+
+class  Calculator  // sprint-1
+{
+
+
+	int add(int a, int b){ // 2weeks
+
+		if(a>0 && b>0){
+
+		return a+b; 
+
+		}
+	}
+
+
+
+	int sub(int a, int b){ // 2weeks
+
+		if(a>0 && b>0){
+
+		return a - b; 
+
+		}
+	}
+
+}  
+
+// release #2

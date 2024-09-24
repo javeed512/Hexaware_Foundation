@@ -1,0 +1,60 @@
+AGILE:
+------
+Def: In software development the term agile means "ability to response to the changes".
+Changes from Requirement , Technical , People(Customer,Stakeholder,Client)
+
+Implementations:  SCRUM , KANBAN ,XP
+
+Agile has 4 values and 12 principles
+
+1. It is an iterative and incremental process.
+2. Direct collaboration with the customers.
+3. Each iteration lasts for 1 to 4 weeks (sprints)
+4. Delivers multiple software increments (software releases)
+
+12 Principle:
+-------------
+1. Customer Satisfaction
+2. Welcome Change Requirement
+3. Deliver working software frequently
+4. Build projects around motivated individuals
+5. Sustainable Development
+6. Work together 
+7. primary measure of progress (Deliver working software frequently)
+8. Face to Face Conversation
+9. Continous attention to the technical excellence
+10. Simplicity 
+11. Self Organizing teams
+12. Team reflects  on how to become more effective by doing adjusts behavior accordingly 
+
+
+
+Agile methodology 
+1. Scrum
+2. Kanban
+3. XP
+
+
+
+Choose an User Story from Product Backlog and we create sprint backlog
+
+Sprint :
+  sprint1:	Plan --> Build --> Test ---> Deploy --> Review (not accepted)  
+  sprint2:      Plan ---> Build --> Test  ---> Deploy --> Review (accepted)
+
+
+Backlogs ---> Set of Requirements
+
+User Story --> Use Case / Backlog / Requirement
+
+Tasks ---> Decomposing backlog/user story into smaller components
+Sprint? :  Production of any backlog is known as Sprint.
+
+Horizon = Schedule
+
+Sprint Retrospective: What is already achieved / what is achieving / what is going to be achieve
+BurnDown Chart --->  task status/days/efforts
+
+
+
+JIRA --> Tracking Tool
