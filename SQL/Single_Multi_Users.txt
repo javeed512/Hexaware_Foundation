@@ -1,0 +1,9 @@
+A criterion for classifying a database system is the number of users who can use the system concurrently. It can be divided into single-user and multi-user database systems. 
+
+1. Single User Database Systems: In this DBMS, at one time, only a single user can access the database. Hence, the user can use all the resources at all times. All these systems are used for personal usage, such as personal computer experience. In this type of DBMS, both the physical and application layer can be used by the user. 
+
+Example: Personal Computers 
+
+2. Multi-User Database Systems: These DBMSs support two or more two users accessing the database simultaneously. Multi-user systems contain all the mini-computers and mainframe computers. In a mainframe computer, the database may exist on a single computer, and in other computers, the database may be distributed on multiple computers. Multiple users can update data while working together simultaneously. 
+
+Example: Databases of Banks, insurance agencies, stock exchanges, supermarkets, etc. 
