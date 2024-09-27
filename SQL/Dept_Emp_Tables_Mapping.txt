@@ -1,0 +1,35 @@
+
+
+Dept Table:
+==========
+
+INSERT INTO Dept values(10,'Development','Banglore');
+
+INSERT INTO Dept values(20,'Testing','Chennai');
+
+INSERT INTO Dept values(30,'HR','Mumbai');
+
+INSERT INTO Dept values(40,'Operation','Hyderabad');
+
+INSERT INTO Dept values(50,'Sales','Delhi');
+
+
+---------------------------------------------
+Adding dno(F.K) column in employees table
+---------------------------------------------
+
+mysql> ALTER TABLE Employees ADD(dno int  references  dept(dno));
+
+
+Employee Table:
+-----------------
+mysql> INSERT INTO Employees  values(110,'Javeed',25000,null,'Trainer',current_date,101,null);
+
+mysql> UPDATE Employees  SET  dno = 10  where  eid IN (101,102,104,105);
+
+mysql> UPDATE Employees  SET  dno = 20  where  eid IN (103,106,107);
+
+mysql> UPDATE Employees  SET  dno = 30  where  eid IN (108);
+
+mysql> UPDATE Employees  SET  dno = 40  where  eid IN (109);
+
