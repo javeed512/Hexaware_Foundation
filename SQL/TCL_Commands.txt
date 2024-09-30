@@ -1,0 +1,94 @@
+Transaction Control Language:
+
+
+COMMIT , SAVEPOINT , ROLLBACK
+
+Note: IN MYSQL Database , DML OPerations(insert,update,delete) are auto-commit.
+
+
+
+commit; // transaction completed 100%
+rollback; // terminated with 0%;
+
+
+
+Example:
+
+start transaction;
+
+INSERT1;
+INSERT2;
+INSERT3;
+INSERT4;
+
+CREATE SAVEPOINT S1;
+
+UPDATE1;
+UPDATE2;
+
+CREATE SAVEPOINT S2;
+
+DELETE1;
+
+CREATE  SAVEPOINT S3;
+
+
+COMMIT/ROLLBACK; it get comitted or rollback till starting point (everything)
+
+
+rollback  S1;
+
+rollback S2;
+
+
+
+
+
+
+
+DCL:
+----
+Data Control Language.
+
+GRANT , REVOKE
+
+CREATE USER 'javeed' identified by 'javeed123';
+GRANT  RESOURCES , CONNECT to 'javeed';
+REVOKE  CONNECT  from 'javeed';
+
+
+username: root;
+Employees table.
+GRANT  SELECT , INSERT , UPDATE  ON Employees TO 'javeed';
+REVOKE  INSERT , UPDATE ON Employees From 'javeed';
+
+
+
+
+username: javeed;
+select ;
+
+
+
+
+----------------------------
+
+RENAME:
+
+The MySQL RENAME TABLE statement is a simple yet powerful command that allows you to change the name of an existing table in your database. This can be useful for various reasons, such as updating table names to better reflect their content or restructuring your database without losing any data.
+
+Rename Table Name:
+------------------
+mysql> rename  table  emp  TO emp_info;
+
+
+
+Rename Column Name  using Alter:
+----------------------------------
+
+mysql> alter table emp_info rename column ename to emp_name;
+
+
+
+
+
