@@ -1,0 +1,46 @@
+1. CREATE Github Remote Repository , make it public
+
+Note: Please verify we have git client software installed in our laptop.
+> git --version
+
+
+2. CREATE a folder in local machine and make it local repository
+	> git init
+
+3. connect local repo to the remote repo.
+
+ > git remote  add  origin  https://github.com/javeed512/Java_Foundation.git
+
+
+4. add some files or folders
+ > git add . 
+
+ > git commit -m "my assignment task1,task2"
+
+ Note: Here you need to verify username and email
+	> git config --global user.email "you@example.com"
+
+ 	> git config --global user.name "Your Name"
+
+5. push files/folders to the remote repository
+
+  > git push origin master 
+
+Note: In step-5 , it may ask you to verify password using browser option
+
+
+
+------------------------------------------------------------------------------------
+
+
+If anyone already push folders/files in git remote 
+
+1. CREATE a folder in local machine and make it local repository
+	> git init
+
+2. connect local repo to the remote repo.
+
+ > git remote  add  origin  https://github.com/javeed512/Java_Foundation.git
+
+
+

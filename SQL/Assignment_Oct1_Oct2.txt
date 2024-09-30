@@ -1,0 +1,19 @@
+Assignments:
+--------------
+
+Oct 1st and 2nd.
+
+
+1. Complete SQL Assignment and upload docs in your personal remote git Repo.
+  copy git url into the Google Excel sheet.
+
+2. Try to complete Project Case Study as a team , everything related to SQL.
+
+3. Do revise and practice all SQL Concepts
+
+Note: Thursday code challenges on SQL.
+
+4. Install Eclipse Latest version and Java JDK-11
+
+Optional read about basic OOPs.
+
