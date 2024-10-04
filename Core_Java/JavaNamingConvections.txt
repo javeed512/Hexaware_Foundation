@@ -1,0 +1,65 @@
+
+packages:
+---------
+ 
+lower case
+
+Ex:
+mypackage;
+
+com.demo;
+com.oops;
+
+com.hexaware.demo;
+
+java.lang;
+java.io;
+java.util;
+java.sql;
+
+syn:-     domain.company.project.module.submodule;
+
+Ex:     com.hexaware.bankapp.customer.login;
+
+---------------------------------------------------------
+
+classes/interfaces:
+--------------------
+InitCap format
+
+ex:  System , Object, String , ArrayList
+ex:   Student , EmployeeService ,  BankAccountDetails
+
+
+Constructor:  (same as class)
+InitCap
+ex:  Student()  ,  EmployeeService() , String()
+
+
+------------------------------------------------------
+
+variables / methods :
+----------------------
+camel-case
+
+variables:    account , accountNumber , studentMarks
+
+methods:   get() , add(int a, int b)  , set() , getAccountDetails()
+
+
+------------------------------------
+final variables:
+
+	BLOCK LETTERS 
+ex:  
+	final double  PI = 3.141;
+	final String  IFSC = "ICIC1234"
+
+
+
+
+
+
+
+
+
