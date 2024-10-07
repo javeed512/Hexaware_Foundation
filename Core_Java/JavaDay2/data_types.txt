@@ -1,0 +1,55 @@
+
+public class Demo{
+
+	public static void main(String ar[]){
+
+	int x = 10; // 4 bytes
+
+
+	String s1 = new  String();
+
+	Demo d =   new   Demo();
+
+	}
+}
+
+default values:
+---------------
+Jvm allocates default values only for the instance and static variable , but not for local variable.
+
+Datatypes    default values
+byte             0
+short            0
+int              0
+long             0
+float            0.0f
+double           0.0
+
+char            single space  ' '
+boolean         false
+-----------------------------------
+byte:
+1 byte = 8 bits  
+  -2pow7   to   2pow7  -1
+	-128  to   127
+
+
+(  )  ---> cast
+
+short:
+2 bytes   = 16 bits
+
+  -2pow15   to  2pow15 -1
+
+
+add(int x, int y);
+
+add(int p, int q , int r);
+
+
+
+
+------------------------------------------
+
+
+
