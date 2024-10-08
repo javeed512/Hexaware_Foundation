@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+"tommmy"
+
+"abae1234"
+
+"123abe$@#%"
+
+char[] ch = {'t','o','m'}
+
+String  name = "tom"; //Literal
+String  name = new String("tom"); // new keyword
+
+
+
+
+class Object{
+
+    public Object(){
+	
+    }
+
+    boolean equals()  // it compares refs or hashcode of two diff objects  
+ 				//   == operator also do same work	
+    finalize();
+    hashcode()
+    toString()  // print hashcode in hexadecimal
+    wait()
+    notify()
+    notifyAll()
+
+
+}
+
+
+
+class String extends Object{
+
+
+
+	boolean equals() // it compares values of two diff string objects    // "a".equals("a")
+                 equalsIgnoreCase();   // "a".equalsIgnoreCase("A") 
+           int length()
+	   int compareTo();
+	    chatAt()
+	substring()
+		
+		toString()  // print string value or data
+		toUpperCase()
+	         toLowerCase()
+		 concat()
+
+
+
+
+
+}
+
+
+
+String class objects are Immutable in nature.
+
+Immutable : which cannot be modify/change
+
+
+
+
+StringBuffer and StringBuilder:
+--------------------------------
+
+These are mutable in nature.
+
+StringBuffer is synchronous or thread-safe  (one thread at a time can use it)
+
+StringBuilder is asychronous or not thread-safe (multiple thread can use it at simultaneously)
+
+append()
+delete()
+insert()
+replace()
+reverse()
+
+length()
+charAt()
+substring()
+toString()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

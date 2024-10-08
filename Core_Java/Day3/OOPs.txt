@@ -1,0 +1,38 @@
+
+OOPs: Object Oriented Programming Concepts
+
+1. Class and Object
+2. Inheritance
+3. Polymorphism
+4. Encapsulation
+5. Abstraction
+
+
+
+Class: It is a blue print , for which instances or objects will be created.
+-> Collections of properties and methods/behaviours  or Collection of Object
+-> Class is a reusable component.
+-> Always Create classes as public
+-> Class is imaginary in nature.
+
+
+Object: It is an instance for a class.
+
+Objects are real time entities , which exist in real world.
+Objects are use to represent  real world entities 
+Ex:  Employee,Student,Bus,Train,Flight,Account,Product,Apps
+
+
+Objects can be instantiated/created using constructors.
+Objects will be created in Heap Memory block by JVM.
+
+
+
+
+
+
+
+
+
+
+

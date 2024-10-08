@@ -3,7 +3,7 @@ package variables;
 public class Employee extends Object { // POJO  or Entity classes
 	
 	// instance variables  or object level variables  or properties
-	private  	    int eid;
+	private  static	    int eid;
 	private    	String ename;   // declare them static and test
 	private    	double salary;
 		
@@ -35,7 +35,7 @@ public class Employee extends Object { // POJO  or Entity classes
 	}
 
 
-	public void setEid(int eid) {
+	public  void setEid(int eid) {
 		this.eid = eid;
 	}
 
