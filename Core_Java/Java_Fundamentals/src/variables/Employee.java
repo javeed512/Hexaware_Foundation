@@ -3,15 +3,21 @@ package variables;
 public class Employee extends Object { // POJO  or Entity classes
 	
 	// instance variables  or object level variables  or properties
-	private  	int eid;
-	private  	String ename;
-	private   	double salary;
+	private  	    int eid;
+	private    	String ename;   // declare them static and test
+	private    	double salary;
 		
+		String city = "Hyderabad"; // default
 	
+	protected String state = "TS"; // ACT as a default access modifier
+		
+		
 	public Employee() {
 		super();   // Object();
 		
 		System.out.println("Employee() is called obj created..");
+		
+		System.out.println(city);
 		
 	}
 
@@ -34,7 +40,7 @@ public class Employee extends Object { // POJO  or Entity classes
 	}
 
 
-	public String getEname() {
+	protected String getEname() {
 		return ename;
 	}
 
