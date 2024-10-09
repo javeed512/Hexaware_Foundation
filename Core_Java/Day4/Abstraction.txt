@@ -1,0 +1,100 @@
+
+Abstraction:  Highlighting set of services to the user and Hiding implementation code.
+
+
+Abstraction can be achieved by using inteface , abstract classes or implementation classes
+
+
+Interface:
+----------
+End User: It is a medium to access set of services using UI(User Interface).
+
+Developer: It is a specification or requirement (set of services) which need to be implement 
+			by the developers.
+
+
+interface:
+----------
+interface can be created using "interface" keyword
+it does not has any constructor (objects cannot be created)
+it is also known as pure abstract class.
+
+
+
+
+abstract class:
+-----------------
+
+Abstract class is a java class which can have abstract methods as well as non-abstract methods
+We cannot create object for abstract classes  (but they will have constructors)
+
+We can use abstract class concept when we want to do partial implementation to any interface.
+OR
+We can use abstract class concept when we dont want someone to create object of our class.
+
+It is also used  in implementation of Abstraction concept in Java
+
+
+
+
+public interface IBank {
+
+
+
+	public  default  void userLogin(){
+
+		// user login logics here
+
+	}
+
+	public static void   openAccountForm(){
+
+		// new account form
+	}
+
+		
+	public void withdraw();
+	public void deposit();
+	public  void  checkBalance();
+
+
+}
+
+
+class BankImp  implements IBank{  // shivam
+
+
+
+	public void withdraw(){
+
+	IBank bank =	new BankImp();		
+		bank.userLogin();
+
+		// withdraw logics
+	}
+
+
+}
+
+
+
+clas Test{
+
+
+
+	main(){
+
+		IBank.openAccountForm();	
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
