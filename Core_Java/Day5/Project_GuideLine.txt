@@ -1,0 +1,15 @@
+
+
+How to create project in real time?
+
+1.  create database  tables/schema
+2.  create  entity/pojo/model  classes
+3.   create service interfaces  and implementation classes  (with validations)
+4.   create   dao interfaces and implementation (jdbc)  classes
+5.   create presentation / main class 
+
+
+Mini project  , EMS  
+
+int addEmp(Employee e);
+List<Employee>   displayAll();
