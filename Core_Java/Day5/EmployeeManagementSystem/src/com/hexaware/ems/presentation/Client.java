@@ -80,8 +80,12 @@ public class Client {
 			case 5:
 
 				break;
-			case 6:
-
+			case 0:
+					flag = false;
+					
+					System.out.println("Thank you , logout successfully..");
+				
+				
 				break;
 
 			default:
