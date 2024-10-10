@@ -19,7 +19,7 @@ Date
 JDBC Steps:
 -----------
 
-1. Import package / add jar file to import package
+1. Import package / add jar file to the project 
 2. Register/Load  Driver class to the DriverManager
 3. Get the DB Connection
 4. Create any Statement  and execute query
@@ -46,21 +46,65 @@ return a+b;
 
 Data base:
 -----------
-create  database  wipro_db;
-use wipro_db;
+create  database  mydb;
+use mydb;
 show tables;
 
 
 CREATE TABLE Employees (Eid integer(3) primary key , EName varchar(20),Salary double);
 
 
-ename char(10)    TOM _ _ _ _ _ _ _    //  HDFC1234 , HDFC133 , HDFC5432  // M , F  , O
-ename varchar(10)    TOM _ _ _ _ _ _ _ // TOM , HUSSAIN , SMITH , FORD , RAJENDRA
+Statement:
+
+Statement interface is used for static queries.
+
+STATIC QUERIES
+--------------
+delete from Employees;
+select * from Employees;
+
+DDL:
+create , alter  , drop , truncate   are static queries
+
+
+DYNAMIC QUERIES:
+----------------
+PreparedStatement interface should be used for dynamic queries
+
+Note: PreparedStatement can also  execute static queries.
+DML :
+insert into Employees values(1,'king',6000);
+update  Employees set salary = 7000 where eid = 1;
+delete from Employees where eid =1;
 
 
 
+SQL/Java  CRUD Operations:
+ 
+Create  ---> insert
+Retrieve  ---> select
+Update   -----> update
+Delete     ----> delete
 
 
+
+PLSQL:
+---------
+
+function / procedure  f1(){
+
+	insert;
+	update;
+	delete;
+
+
+}
+
+
+
+CallableStatement cstmt =  prepareCall("{call   f1()}");
+
+		cstmt.execute();
 
 
 

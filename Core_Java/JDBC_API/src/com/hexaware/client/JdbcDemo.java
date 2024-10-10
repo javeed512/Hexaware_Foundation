@@ -16,13 +16,14 @@ public class JdbcDemo {
 
 			Statement stmt = conn.createStatement();
 
-			String insert = "insert into Employees values(112,'smith',70000)";
+			String insert = "insert into Employees values(114,'adam',50000)";
 
 			//String update = "update Employees set ename = 'javeed khan' , salary = 99000 where eid = 111   ";
 			
 			 // String delete = "delete from Employees where eid = 111";
 			
-			
+		
+	
 			int count = stmt.executeUpdate(insert);
 			// it is used for DML , return integer which mean no. of records   effected
 
