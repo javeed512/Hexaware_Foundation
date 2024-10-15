@@ -1,0 +1,86 @@
+
+
+Exception Handling keywords:
+----------------------------
+
+1. throws
+2. try catch finally
+3. throw 
+
+
+throws:
+=======
+It is used to throws any exception from callee  to the callers
+Internally JVM uses throws at runtime to throws exceptions implicitly.
+
+
+try
+====:
+Inside try block we always write risky code (code which is responsible for exception)
+
+Ex:
+
+  ArithmeticException e  = new ArithmeticException();
+
+try will capture exception and throw it to the catch block where it will be catch and information will be displayed.
+
+e.printStackTrace();
+System.err.println("any user defined msg");
+
+
+catch
+======:
+It will catch or handle exception at run time.
+catch block executes only when exception occur.
+we can use multiple catch blocks for one try block.
+
+syn:
+---
+try{} 
+catch(){}
+catch(){}
+finally{}
+
+
+try{}
+finally{
+
+	try{}
+	catch(){}
+}
+
+Note: Nested try catch finally is possible
+
+
+Custom Exceptions:
+-------------------
+User defined exceptions are known as Custom Exceptions.
+It can be either Checked or Unchecked type.
+It is used to represent exceptional cases in realtime scenarios like
+Ex: InsufficientBalanceExp , LowBalanceExp , InvalidPinCode , ProductNotFoundException
+
+class MyExp  extends Exception{  //checked exp
+
+
+}
+
+
+class MyExp  extends RuntimeException{  // unchecked exp
+
+
+}
+
+
+Steps:
+1. create a class and extend  Exception class (for checked exp)   or 
+	RuntimeException (for unchecked exp)
+
+2. use throw keyword and raise the exception
+
+3. write try - catch and handle that exception
+
+
+
+
+
+
