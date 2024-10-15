@@ -71,13 +71,15 @@ class MyExp  extends RuntimeException{  // unchecked exp
 }
 
 
-Steps:
+Steps for creating Custom Exceptions:
 1. create a class and extend  Exception class (for checked exp)   or 
 	RuntimeException (for unchecked exp)
 
 2. use throw keyword and raise the exception
 
-3. write try - catch and handle that exception
+3. write   try-catch and handle that exception
+
+
 
 
 
