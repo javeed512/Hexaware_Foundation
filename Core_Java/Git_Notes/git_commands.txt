@@ -78,7 +78,7 @@ $git checkout branch_1
 Note: Create some file/folder add,commit,push to the branch_1
 Ex: UserData.txt
 
-$git add .            // this will add UserData.txt file to local repo
+$git add .            // this will add UserData.txt file to stage area of local repo
 
 $git commit -m "UserData.txt"   // this will save UserData.txt in local repo
 
@@ -95,7 +95,7 @@ Note: Always be in master branch before any merge
 $git  merge  branch_1
 
 
-Now , Remember when ever we don merge , it will not reflect to the origin/remote until and unless 
+Now , Remember when ever we do merge , it will not reflect to the origin/remote until and unless 
 i. pull request is rise  (any developer or Team Lead can do this)
 ii. merge request is confirmed (Repository owner/Product owner / senior person)
 iii. comment is done  (its mandatory)
