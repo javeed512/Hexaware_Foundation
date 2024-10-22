@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function   f1(){
+
+           var uname =     document.getElementById("uid").value;
+
+            var age =       document.getElementById("age").value;
+            
+            if(age > 18){
+
+                alert(uname +" eligible for voting");
+            }
+            else{
+
+
+                    alert("sorry "+uname+" not eligible for voting")
+
+            }
+
+
+        }
+
+
+        function f2(){
+
+                var  names = ["king","smith","ford","himanshu","pretish"];
+
+                console.log(names)
+
+
+                    for(var i=0; i< names.length; i++)
+                    {
+
+                            console.log(names[i]);
+
+                    }
+
+                        console.log("For Each Loop")
+
+                    names.forEach(  (e1)=>{ console.log(e1) }); // for each loop
+
+
+
+                    document.write("<h1>Hello am latest data from JS</h1>");
+
+        }
+
+
+        function f3(){
+
+            var userElement =     document.getElementById("uid");
+
+                    userElement.style.backgroundColor = 'red';
+
+
+        }
+
+        function f4(){
+            var userElement =     document.getElementById("uid");
+
+                    userElement.style.backgroundColor = 'green';
+
+        }
+
+        
+        function f5(){
+
+                document.getElementById("hid").style.backgroundColor = 'yellow';
+
+        }
+
+    </script>
+
+
+
+</head>
+<body>
+
+    <form>
+
+
+         UserName: <input type="text"  id="uid"  onfocus="f3()"  onblur="f4()" >  <br>
+         Age: <input type="number" id="age" > <br>
+
+         <button type="button"  onclick="f1()">Submit</button>
+
+         <br>
+         <br>
+
+         <button type="button" onclick="f2()">Get Names</button>
+
+
+    </form>
+
+    <br>
+
+    <a href="http://www.facebook.com"  onmouseover="f5()" id="hid">Click Here</a>
+    
+</body>
+</html>

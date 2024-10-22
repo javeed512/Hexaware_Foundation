@@ -1,0 +1,35 @@
+
+
+<h1  id="hid"  name="hname" >Hello World</h1>
+
+<h1 id="id2"  name="hname" >Welcome</h1>
+
+<script>
+
+option-1
+var element =	document.getElementById("hid");
+
+		element.innerText = "Hello Friends"
+
+
+option-2
+var    elements[] =document.getElementsByName("hname");
+
+	elements[0]  ---> 1st h1 tag
+	elements[1]  ----> 2nd h1 tag
+
+option-3:
+  var  elements[] =  document.getElementsByTagName("head");
+
+
+</script>
+
+
+
+
+
+
+Attributes are applicable for all HTML Tags:
+
+id , name , style , class    
+
