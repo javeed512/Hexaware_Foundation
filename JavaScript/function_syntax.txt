@@ -1,0 +1,27 @@
+
+syntax for function:
+
+
+1.
+
+function f1(){
+	// any logics
+
+}
+f1();
+
+2. anonymous or arrow function
+ 
+  const f2 =  ()=>{
+		// any code here
+
+               }
+
+f2();
+
+
+Ecma script or Adv JS
+
+
+TypeScript  ---> angular or reactjs
+

@@ -1,7 +1,10 @@
 
 function  f1(){
 
-    alert('Wecome to JAVASCRIPT')
+    console.log('Wecome to JAVASCRIPT')
 
 
 }
+
+f1();
+
