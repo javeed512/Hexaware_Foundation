@@ -71,6 +71,29 @@ class DemoTest {
 	
 	}
 	
+	@Test
+	public void testExp() {
+		
+			
+			String name = null;
+		
+			boolean flag = false;
+				try {
+					
+					name.length();
+					
+				}
+				catch (NullPointerException e) {
+					
+					flag = true;
+				}
+		
+			assertTrue(flag);	
+		
+	}
+	
+	
+	
 	
 	
 
